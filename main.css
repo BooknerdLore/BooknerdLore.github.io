@@ -1,0 +1,19 @@
+html {
+	margin:  20px;
+	background-color: #e0b6b1;
+}
+
+body {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+	color: #333;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+p{
+	font-size: 20px;
+	color:  #c35d5d;
+}
