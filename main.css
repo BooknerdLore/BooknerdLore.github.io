@@ -18,3 +18,9 @@ p{
 	font-size: 20px;
 	color:  #c35d5d;
 }
+
+link {
+  color: #75abab;
+  background-color: transparent;
+  text-decoration: none;
+}
