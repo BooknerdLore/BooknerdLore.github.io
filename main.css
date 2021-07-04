@@ -19,22 +19,15 @@ p{
 	color:  #c35d5d;
 }
 
-/* unvisited link */
 a:link {
-  color: red;
+  color: #55a0bd;
 }
 
-/* visited link */
 a:visited {
-  color: green;
+  color: #5bbd55;
 }
 
-/* mouse over link */
 a:hover {
-  color: hotpink;
-}
-
-/* selected link */
-a:active {
-  color: blue;
+  color: #b755bd;
+  text-decoration: underline;
 }
