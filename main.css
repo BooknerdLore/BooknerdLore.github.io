@@ -63,7 +63,7 @@ body {
     background-size: cover;
     color: #a18383;
     height: 500px;
-    text-shadow: 0.25px 0.25px 0.25px #000000;
+    /*text-shadow: 0.25px 0.25px 0.25px #000000;*/
   }
   
   .jumbotron h2 {
@@ -110,7 +110,6 @@ body {
     background-size: cover;
     color: #a18383;
     height: 500px;
-    text-shadow: 0.25px 0.25px 0.25px #000000;
   }
   
   .jumboRaces h2 {
@@ -134,7 +133,6 @@ body {
     background-size: cover;
     color: #a18383;
     height: 500px;
-    text-shadow: 0.25px 0.25px 0.25px #000000;
   }
   
   .jumboMyths h2 {
@@ -158,7 +156,6 @@ body {
     background-size: cover;
     color: #a18383;
     height: 500px;
-    text-shadow: 0.25px 0.25px 0.25px #000000;
   }
   
   .jumboXX h2 {
