@@ -252,7 +252,7 @@ img {
     height: 100%;
 }
 
-.fill {
+.cover {
     width: 540;
-    object-fit: fill;
+    object-fit: cover;
 }
