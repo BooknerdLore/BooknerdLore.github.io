@@ -246,3 +246,8 @@ body {
     width: 32px;
     height: 32px;
   }
+
+
+img {
+    object-fit: cover;
+}
