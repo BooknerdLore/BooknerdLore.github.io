@@ -67,6 +67,7 @@ body {
   }
   
   .jumbotron h2 {
+    font-family: "Luminari", "Trattatello", fantasy;
     font-size: 60px;
     font-weight: 700;
     margin: 0;
@@ -90,6 +91,7 @@ body {
   }
   
   .jumboNations h2 {
+    font-family: "Luminari", "Trattatello", fantasy;
     font-size: 60px;
     font-weight: 700;
     margin: 0;
@@ -113,6 +115,7 @@ body {
   }
   
   .jumboRaces h2 {
+    font-family: "Luminari", "Trattatello", fantasy;
     font-size: 60px;
     font-weight: 700;
     margin: 0;
@@ -136,6 +139,7 @@ body {
   }
   
   .jumboMyths h2 {
+    font-family: "Luminari", "Trattatello", fantasy;
     font-size: 60px;
     font-weight: 700;
     margin: 0;
@@ -159,6 +163,7 @@ body {
   }
   
   .jumboXX h2 {
+    font-family: "Luminari", "Trattatello", fantasy;
     font-size: 60px;
     font-weight: 700;
     margin: 0;
