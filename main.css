@@ -249,5 +249,10 @@ body {
 
 
 img {
-    object-fit: cover;
+    height: 100%;
+}
+
+.fill {
+    width: 540;
+    object-fit: fill;
 }
