@@ -1,6 +1,27 @@
 body {
     font-family: 'Trebuchet MS', sans-serif;
     font-weight: 300;
+
+    p1 {
+        font-family: 'Georgia', 'Times New Roman', 'Didot', Times, serif, ui-serif;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    p2 {
+        font-family: 'Trebuchet MS', 'Optima', 'Open Sans', 'Helvetica', system-ui, Helvetica, sans-serif, ui-sans-serif;
+    }
+    
+    p3 {
+        font-family: "Luminari", "Trattatello", "Aniron", fantasy;
+    }
+    
+    p4 {
+        font-family: 'URW Chancery L', 'Bradley Hand', cursive;
+    }
+    
+    p5 {
+        font-family: "Lucida Console", monospace, ui-monospace;
+    }
   }
   
   header {
@@ -27,31 +48,6 @@ body {
     padding: 0 20px;
     margin: 0;
   }
-
-
-
-
-
-.p1 {
-    /*font-family: 'Georgia', 'Times New Roman', 'Didot', Times, serif, ui-serif;*/
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.p2 {
-    font-family: 'Trebuchet MS', 'Optima', 'Open Sans', 'Helvetica', system-ui, Helvetica, sans-serif, ui-sans-serif;
-}
-
-.p3 {
-    font-family: "Luminari", "Trattatello", "Aniron", fantasy;
-}
-
-.p4 {
-    font-family: 'URW Chancery L', 'Bradley Hand', cursive;
-}
-
-.p5 {
-    font-family: "Lucida Console", monospace, ui-monospace;
-}
 
 
 
