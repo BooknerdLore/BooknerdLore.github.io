@@ -175,16 +175,16 @@ body {
   }
 
 
-  .jumboXX {
+  .jumboDeities {
     display: flex;
     align-items: center;
-    background-image: url('http://www.online-tabletop.com/wp-content/uploads/2017/01/tutoriala.jpg');
+    background-image: url('https://artincontext.org/wp-content/uploads/2022/06/Most-Famous-Greek-Paintings-of-Gods.jpg');
     background-size: cover;
     color: #a18383;
     height: 500px;
   }
   
-  .jumboXX h2 {
+  .jumboDeities h2 {
     font-family: "Luminari", "Trattatello", "Aniron", fantasy;
     font-size: 60px;
     font-weight: 700;
@@ -192,7 +192,7 @@ body {
     color: #000;
   }
   
-  .jumboXX h3 {
+  .jumboDeities h3 {
     margin: 0 0 20px;
     color: #000;
   }
