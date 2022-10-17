@@ -2,6 +2,11 @@ html {
     background-color: #918372;
 }
 
+#corner-title {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
 
 body {
     font-family: 'Trebuchet MS', sans-serif;
