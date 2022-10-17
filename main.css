@@ -110,6 +110,7 @@ body {
     background-size: cover;
     color: #a18383;
     height: 500px;
+    text-shadow: 0.25px 0.25px 0.25px #fff;
   }
   
   .jumboRaces h2 {
