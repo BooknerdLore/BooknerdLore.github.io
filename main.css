@@ -33,19 +33,23 @@ body {
 
 
 .p1 {
-    font-family: Georgia, Times, serif;
+    font-family: 'Georgia', 'Times New Roman', 'Didot', Times, serif, ui-serif;
 }
 
 .p2 {
-    font-family: system-ui, 'Segoe UI', 'Roboto', 'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Trebuchet MS', 'Optima', 'Open Sans', 'Helvetica Neue', system-ui, Helvetica, sans-serif, ui-sans-serif;
 }
 
 .p3 {
-    font-family: 'Luminari', fantasy;
+    font-family: "Luminari", "Trattatello", fantasy;
 }
 
 .p4 {
-    font-family: 'Bradley Hand', cursive;
+    font-family: 'URW Chancery L', 'Bradley Hand', cursive;
+}
+
+.p5 {
+    font-family: "Lucida Console", monospace, ui-monospace;
 }
 
 
