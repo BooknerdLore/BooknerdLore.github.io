@@ -132,33 +132,33 @@
 
 
 /* Everything else I need for the CSS file */
-html {
-    background-color: #918372;
+html, body {
+  background-color: #918372;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-weight: 300;
+  margin:0;
+  padding:0;
 }
-body {
-    font-family: 'Trebuchet MS', sans-serif;
-    font-weight: 300;
-  }
-  header {
+header {
     padding: 20px 0;
-  }
+}
   header .row,
-  footer .row {
+footer .row {
     display: flex;
     align-items: center;
-  }
-  header h1 {
+}
+header h1 {
     font-weight: 700;
     margin: 0;
-  }
-  header nav {
+}
+header nav {
     display: flex;
     justify-content: flex-end;
-  }
-  header p {
+}
+header p {
     padding: 0 20px;
     margin: 0;
-  }
+}
 
 
 

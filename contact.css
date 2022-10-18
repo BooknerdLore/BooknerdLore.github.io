@@ -1,0 +1,122 @@
+@font-face {
+    font-family: BlackJack;
+    src: url('Fonts/blackjack-webfont.woff');
+    src: url('Fonts/blackjack-webfont.woff2');
+}
+
+@font-face {
+    font-family: FuzzyReg;
+    src: url('Fonts/fuzzybubbles-regular-webfont.woff');
+    src: url('Fonts/fuzzybubbles-regular-webfont.woff2');
+}
+
+
+
+html, body {
+    background-color: #918372;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    margin:0;
+    padding:0;
+}
+  header {
+    padding: 20px 0;
+  }
+  header .row,
+  footer .row {
+    display: flex;
+    align-items: center;
+  }
+  header h1 {
+    font-weight: 700;
+    margin: 0;
+  }
+  header nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  header p {
+    padding: 0 20px;
+    margin: 0;
+  }
+
+
+
+  .jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url('https://media.discordapp.net/attachments/493513081348030464/1031952637442150511/Untitled_Artwork.jpg?width=720&height=210');
+    background-size: fill;
+    color: #a18383;
+    height: 210px;
+    width: 720px;
+  }
+  .jumbotron h2 {
+    font-family: 'GondolaSD', fantasy;
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0;
+    color: #000;
+  }
+  .jumbotron h3 {
+    font-family: 'BlackJack', cursive;
+    font-size: 40px;
+    margin: 0 0 20px;
+    color: #000;
+  }
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #918372;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4b3d2c;
+    color: #d3c3a0;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #382c1c;
+  }
+  
+  /* Create two columns that float next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+
+#nav-links {
+  color: #000;
+}
