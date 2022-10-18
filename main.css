@@ -142,7 +142,7 @@ html, body {
 header {
     padding: 20px 0;
 }
-  header .row,
+header .row,
 footer .row {
     display: flex;
     align-items: center;

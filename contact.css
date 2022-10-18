@@ -45,22 +45,20 @@ html, body {
   .jumbotron {
     display: flex;
     align-items: center;
-    background-image: url('https://media.discordapp.net/attachments/493513081348030464/1031952637442150511/Untitled_Artwork.jpg?width=720&height=210');
-    background-size: fill;
+    background-color: #d3c3a0;
     color: #a18383;
-    height: 210px;
-    width: 720px;
+    height: 200px;
   }
   .jumbotron h2 {
-    font-family: 'GondolaSD', fantasy;
-    font-size: 60px;
-    font-weight: 700;
+    font-family: 'BlackJack', fantasy;
+    font-size: 77px;
+    font-weight: 500;
     margin: 0;
     color: #000;
   }
   .jumbotron h3 {
-    font-family: 'BlackJack', cursive;
-    font-size: 40px;
+    font-family: 'FuzzyReg', cursive;
+    font-size: 25px;
     margin: 0 0 20px;
     color: #000;
   }
