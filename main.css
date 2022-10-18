@@ -242,7 +242,7 @@ h3 {
     background-image: url('https://i.pinimg.com/originals/a9/e2/50/a9e2503b55b704870619bfd93a3153e0.jpg');
     background-size: cover;
     color: #a18383;
-    height: 500px;
+    height: 300px;
     /*text-shadow: 0.25px 0.25px 0.25px #000000;*/
   }
   .jumbotron h2 {
@@ -266,7 +266,7 @@ h3 {
     background-image: url('http://www.online-tabletop.com/wp-content/uploads/2017/01/tutoriala.jpg');
     background-size: cover;
     color: #a18383;
-    height: 500px;
+    height: 300px;
   }
   .jumboNations h2 {
     font-family: 'GondolaSD', fantasy;
@@ -289,7 +289,7 @@ h3 {
     background-image: url('https://seanmills6.files.wordpress.com/2020/07/fantasy-race-list-03.jpg');
     background-size: cover;
     color: #a18383;
-    height: 500px;
+    height: 300px;
   }
   .jumboRaces h2 {
     font-family: 'GondolaSD', fantasy;
@@ -312,7 +312,7 @@ h3 {
     background-image: url('https://i.imgur.com/CK7iVNd.png');
     background-size: cover;
     color: #a18383;
-    height: 500px;
+    height: 300px;
   }
   .jumboMyths h2 {
     font-family: 'GondolaSD', fantasy;
@@ -335,7 +335,7 @@ h3 {
     background-image: url('https://images.alphacoders.com/286/286341.jpg');
     background-size: cover;
     color: #a18383;
-    height: 500px;
+    height: 300px;
   }
   .jumboDeities h2 {
     font-family: 'GondolaSD', fantasy;
@@ -411,4 +411,8 @@ h3 {
 
 #nav-links {
   color: #000;
+}
+
+#header-links {
+  color: #d3c3a0;
 }
