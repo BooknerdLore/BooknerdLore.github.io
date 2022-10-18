@@ -251,6 +251,6 @@ h3 {
 
 
 .contain {
-  height: 500px;
+  height: auto;
   width: 540px;
 }
