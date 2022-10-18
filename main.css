@@ -251,10 +251,15 @@ h3 {
 
 
 img {
-    height: 540;
+  height: auto;
 }
 
 .contain {
-    width: 540;
-    object-fit: contain;
+  width: 540px;
+  object-fit: contain;
+}
+
+.contain2 {
+  height: 540px ;
+  width: 540px;
 }
