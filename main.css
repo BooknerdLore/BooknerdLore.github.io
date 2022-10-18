@@ -250,11 +250,8 @@ h3 {
   }
 
 
-img {
-  height: 400px;
-}
-
 .contain {
+  height: auto;
   width: 540px;
   object-fit: contain;
 }
