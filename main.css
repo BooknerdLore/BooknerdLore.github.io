@@ -251,7 +251,7 @@ h3 {
 
 
 .contain {
-  height: auto;
+  height: 400px;
   width: 540px;
   object-fit: contain;
 }
