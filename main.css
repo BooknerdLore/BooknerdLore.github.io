@@ -1,32 +1,160 @@
+/* Making a bunch of new font families to use because I don't like the defaults lol */
+@font-face {
+  font-family: BlackJack;
+  src: url('Fonts/blackjack-webfont.woff');
+  src: url('Fonts/blackjack-webfont.woff2');
+}
+
+@font-face {
+  font-family: Calligraffiti;
+  src: url('Fonts/calligraffiti-webfont.woff');
+  src: url('Fonts/calligraffiti-webfont.woff2');
+}
+
+.pCalli {
+  font-family: 'Calligraffiti', cursive;
+  font-size: 35px;
+  color: #000;
+ }
+
+@font-face {
+  font-family: DancingScript;
+  src: url('Fonts/dancingscript-variablefont_wght-webfont.woff');
+  src: url('Fonts/dancingscript-variablefont_wght-webfont.woff2');
+}
+
+.pDance {
+  font-family: 'DancingScript', cursive;
+  font-size: 35px;
+  color: #000;
+ }
+
+/*@font-face {
+  font-family: FuzzyB;
+  src: url('Fonts/fuzzybubbles-bold-webfont.woff');
+  src: url('Fonts/fuzzybubbles-bold-webfont.woff2');
+}
+
+.pFuzzB {
+  font-family: 'FuzzyB', cursive;
+  font-size: 35px;
+  font-style: bold;
+  color: #000;
+ }
+*/
+@font-face {
+  font-family: FuzzyReg;
+  src: url('Fonts/fuzzybubbles-regular-webfont.woff');
+  src: url('Fonts/fuzzybubbles-regular-webfont.woff2');
+}
+
+.pFuzzReg {
+  font-family: 'FuzzyReg', cursive;
+  font-size: 35px;
+  color: #000;
+ }
+
+@font-face {
+  font-family: GondolaSD;
+  src: url('Fonts/gondola_sd-webfont.woff');
+  src:url('Fonts/gondola_sd-webfont.woff2');
+}
+
+.pGondSD {
+  font-family: 'GondolaSD', cursive;
+  font-size: 35px;
+  color: #000;
+ }
+
+@font-face {
+  font-family: GondolaSDSwash;
+  src: url('Fonts/gondola_sd-swash-webfont.woff');
+  src: url('Fonts/gondola_sd-swash-webfont.woff2');
+}
+
+.pGondSwash {
+  font-family: 'GondolaSDSwash', cursive;
+  font-size: 35px;
+  color: #000;
+ }
+
+@font-face {
+  font-family: Sacramento;
+  src: url('Fonts/sacramento-regular-webfont.woff');
+  src: url('Fonts/sacramento-regular-webfont.woff2');
+}
+
+.pSacra {
+  font-family: 'Sacramento', cursive;
+  font-size: 35px;
+  color: #000;
+ }
+
+/*@font-face {
+  font-family: Shalimar;
+  src: url('Fonts/shalimar-regular-webfont.woff');
+  src: url('Fonts/shalimar-regular-webfont.woff2');
+}
+
+.Sham {
+  font-family: 'Shalimar', cursive;
+  font-size: 35px;
+  color: #000;
+ }
+ */
+@font-face {
+  font-family: TangerineB;
+  src: url('Fonts/tangerine-bold-webfont.woff');
+  src: url('Fonts/tangerine-bold-webfont.woff2');
+}
+
+.TangyB {
+  font-family: 'TangerineB';
+  font-size: 35px;
+  font-style: bold;
+  color: #000;
+ }
+
+@font-face {
+  font-family: TangerineReg;
+  src: url('Fonts/tangerine-regular-webfont.woff');
+  src: url('Fonts/tangerine-regular-webfont.woff2');
+}
+
+.TangyReg {
+  font-family: 'TangerineReg';
+  font-size: 35px;
+  color: #000;
+ }
+
+
+
+
+
+/* Everything else I need for the CSS file */
 html {
     background-color: #918372;
 }
-
 body {
     font-family: 'Trebuchet MS', sans-serif;
     font-weight: 300;
   }
-  
   header {
     padding: 20px 0;
   }
-  
   header .row,
   footer .row {
     display: flex;
     align-items: center;
   }
-  
   header h1 {
     font-weight: 700;
     margin: 0;
   }
-  
   header nav {
     display: flex;
     justify-content: flex-end;
   }
-  
   header p {
     padding: 0 20px;
     margin: 0;
@@ -40,21 +168,48 @@ body {
     font-family: 'Georgia', 'Times New Roman', 'Didot', Times, serif, ui-serif;
     font-style: bold;
     font-size: 55px;
-    color: #000
+    color: #000;
+    padding: 0 10px;
 }
 
 h2 {
     font-family: 'Georgia', 'Times New Roman', 'Didot', Times, serif, ui-serif;
     font-style: bold;
     font-size: 45px;
-    color: #000
+    color: #000;
+    padding: 0 7px;
+ }
+
+ .h2Fantasy {
+  font-family: 'GondolaSDSwash', fantasy;
+  font-style: bold;
+  font-size: 45px;
+  color: #000;
+  padding: 0 7px;
+ }
+
+ .h2Cursive {
+  font-family: 'BlackJack', cursive;
+  font-style: bold;
+  font-size: 45px;
+  color: #000;
+  padding: 0 7px;
+ }
+
+ .h2Test {
+  font-family: 'ComforterBrush', cursive;
+  font-style: bold;
+  font-size: 45px;
+  color: #000;
+  padding: 0 7px;
  }
 
 h3 {
     font-family: 'Georgia', 'Times New Roman', 'Didot', Times, serif, ui-serif;
     font-style: bold, italic;
     font-size: 30px;
-    color: #000
+    color: #000;
+    padding: 0 5px;
 }
 
 
@@ -62,24 +217,22 @@ h3 {
 .p1 {
     font-family: 'Georgia', 'Times New Roman', 'Didot', Times, serif, ui-serif;
 }
-
 .p2 {
     font-family: 'Trebuchet MS', 'Optima', 'Open Sans', 'Helvetica', system-ui, Helvetica, sans-serif, ui-sans-serif;
 }
-
+.h2p2 {
+  font-family: 'Trebuchet MS', 'Optima', 'Open Sans', 'Helvetica', system-ui, Helvetica, sans-serif, ui-sans-serif;
+  font-size: 17px;
+}
 .p3 {
     font-family: "Luminari", "Trattatello", "Aniron", fantasy;
 }
-
 .p4 {
     font-family: 'URW Chancery L', 'Bradley Hand', cursive;
 }
-
 .p5 {
     font-family: "Lucida Console", monospace, ui-monospace;
 }
-
-
 
 
 
@@ -92,16 +245,16 @@ h3 {
     height: 500px;
     /*text-shadow: 0.25px 0.25px 0.25px #000000;*/
   }
-  
   .jumbotron h2 {
-    font-family: "Luminari", "Trattatello", "Aniron", fantasy;
+    font-family: 'GondolaSD', fantasy;
     font-size: 60px;
     font-weight: 700;
     margin: 0;
     color: #000;
   }
-  
   .jumbotron h3 {
+    font-family: 'BlackJack', cursive;
+    font-size: 40px;
     margin: 0 0 20px;
     color: #000;
   }
@@ -115,16 +268,16 @@ h3 {
     color: #a18383;
     height: 500px;
   }
-  
   .jumboNations h2 {
-    font-family: "Luminari", "Trattatello", "Aniron", fantasy;
+    font-family: 'GondolaSD', fantasy;
     font-size: 60px;
     font-weight: 700;
     margin: 0;
     color: rgb(32, 46, 80);
   }
-  
   .jumboNations h3 {
+    font-family: 'BlackJack', cursive;
+    font-size: 40px;
     margin: 0 0 20px;
     color: #000;
   }
@@ -138,16 +291,16 @@ h3 {
     color: #a18383;
     height: 500px;
   }
-  
   .jumboRaces h2 {
-    font-family: "Luminari", "Trattatello", "Aniron", fantasy;
+    font-family: 'GondolaSD', fantasy;
     font-size: 60px;
     font-weight: 700;
     margin: 0;
     color: #000;
   }
-  
   .jumboRaces h3 {
+    font-family: 'BlackJack', cursive;
+    font-size: 40px;
     margin: 0 0 20px;
     color: #000;
   }
@@ -161,16 +314,16 @@ h3 {
     color: #a18383;
     height: 500px;
   }
-  
   .jumboMyths h2 {
-    font-family: "Luminari", "Trattatello", "Aniron", fantasy;
+    font-family: 'GondolaSD', fantasy;
     font-size: 60px;
     font-weight: 700;
     margin: 0;
     color: #000;
   }
-  
   .jumboMyths h3 {
+    font-family: 'BlackJack', cursive;
+    font-size: 40px;
     margin: 0 0 20px;
     color: #000;
   }
@@ -184,16 +337,16 @@ h3 {
     color: #a18383;
     height: 500px;
   }
-  
   .jumboDeities h2 {
-    font-family: "Luminari", "Trattatello", "Aniron", fantasy;
+    font-family: 'GondolaSD', fantasy;
     font-size: 60px;
     font-weight: 700;
     margin: 0;
     color: #000;
   }
-  
   .jumboDeities h3 {
+    font-family: 'BlackJack', cursive;
+    font-size: 40px;
     margin: 0 0 20px;
     color: #000;
   }
@@ -250,7 +403,7 @@ h3 {
   }
 
 
-.contain {
-  height: auto;
+.col6-contain {
   width: 540px;
+  height: 300px;
 }
