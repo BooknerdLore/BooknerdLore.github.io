@@ -1,41 +1,418 @@
-html {
-	margin:  20px;
-	background-color: #151515;
+/* Making a bunch of new font families to use because I don't like the defaults lol */
+@font-face {
+  font-family: BlackJack;
+  src: url('Fonts/blackjack-webfont.woff');
+  src: url('Fonts/blackjack-webfont.woff2');
 }
 
-body {
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	font-weight: 300;
-	color: #8e8e8e;
+@font-face {
+  font-family: Calligraffiti;
+  src: url('Fonts/calligraffiti-webfont.woff');
+  src: url('Fonts/calligraffiti-webfont.woff2');
 }
 
-h1 {
-	font-size: 50px;
-	color: #8e8e8e;
+.pCalli {
+  font-family: 'Calligraffiti', cursive;
+  font-size: 35px;
+  color: #000;
+ }
+
+@font-face {
+  font-family: DancingScript;
+  src: url('Fonts/dancingscript-variablefont_wght-webfont.woff');
+  src: url('Fonts/dancingscript-variablefont_wght-webfont.woff2');
 }
 
-p{
-	font-size: 20px;
-	color:  #c35d5d;
+.pDance {
+  font-family: 'DancingScript', cursive;
+  font-size: 35px;
+  color: #000;
+ }
+
+/*@font-face {
+  font-family: FuzzyB;
+  src: url('Fonts/fuzzybubbles-bold-webfont.woff');
+  src: url('Fonts/fuzzybubbles-bold-webfont.woff2');
 }
 
-/*
-style {
-	a:link ;
+.pFuzzB {
+  font-family: 'FuzzyB', cursive;
+  font-size: 35px;
+  font-style: bold;
+  color: #000;
+ }
+*/
+@font-face {
+  font-family: FuzzyReg;
+  src: url('Fonts/fuzzybubbles-regular-webfont.woff');
+  src: url('Fonts/fuzzybubbles-regular-webfont.woff2');
+}
+
+.pFuzzReg {
+  font-family: 'FuzzyReg', cursive;
+  font-size: 35px;
+  color: #000;
+ }
+
+@font-face {
+  font-family: GondolaSD;
+  src: url('Fonts/gondola_sd-webfont.woff');
+  src:url('Fonts/gondola_sd-webfont.woff2');
+}
+
+.pGondSD {
+  font-family: 'GondolaSD', cursive;
+  font-size: 35px;
+  color: #000;
+ }
+
+@font-face {
+  font-family: GondolaSDSwash;
+  src: url('Fonts/gondola_sd-swash-webfont.woff');
+  src: url('Fonts/gondola_sd-swash-webfont.woff2');
+}
+
+.pGondSwash {
+  font-family: 'GondolaSDSwash', cursive;
+  font-size: 35px;
+  color: #000;
+ }
+
+@font-face {
+  font-family: Sacramento;
+  src: url('Fonts/sacramento-regular-webfont.woff');
+  src: url('Fonts/sacramento-regular-webfont.woff2');
+}
+
+.pSacra {
+  font-family: 'Sacramento', cursive;
+  font-size: 35px;
+  color: #000;
+ }
+
+/*@font-face {
+  font-family: Shalimar;
+  src: url('Fonts/shalimar-regular-webfont.woff');
+  src: url('Fonts/shalimar-regular-webfont.woff2');
+}
+
+.Sham {
+  font-family: 'Shalimar', cursive;
+  font-size: 35px;
+  color: #000;
+ }
+ */
+@font-face {
+  font-family: TangerineB;
+  src: url('Fonts/tangerine-bold-webfont.woff');
+  src: url('Fonts/tangerine-bold-webfont.woff2');
+}
+
+.TangyB {
+  font-family: 'TangerineB';
+  font-size: 35px;
+  font-style: bold;
+  color: #000;
+ }
+
+@font-face {
+  font-family: TangerineReg;
+  src: url('Fonts/tangerine-regular-webfont.woff');
+  src: url('Fonts/tangerine-regular-webfont.woff2');
+}
+
+.TangyReg {
+  font-family: 'TangerineReg';
+  font-size: 35px;
+  color: #000;
+ }
+
+
+
+
+
+/* Everything else I need for the CSS file */
+html, body {
+  background-color: #918372;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-weight: 300;
+  margin:0;
+  padding:0;
+}
+header {
+    padding: 20px 0;
+}
+header .row,
+footer .row {
+    display: flex;
+    align-items: center;
+}
+header h1 {
+    font-weight: 700;
+    margin: 0;
+}
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+header p {
+    padding: 0 20px;
+    margin: 0;
 }
 
 
-a:link {
-  color: #55a0bd;
+
+
+
+.h1 {
+    font-family: 'Georgia', 'Times New Roman', 'Didot', Times, serif, ui-serif;
+    font-style: bold;
+    font-size: 55px;
+    color: #000;
+    padding: 0 10px;
 }
 
-a:visited {
-  color: #5bbd55;
+h2 {
+    font-family: 'Georgia', 'Times New Roman', 'Didot', Times, serif, ui-serif;
+    font-style: bold;
+    font-size: 45px;
+    color: #000;
+    padding: 0 7px;
+ }
+
+ .h2Fantasy {
+  font-family: 'GondolaSDSwash', fantasy;
+  font-style: bold;
+  font-size: 45px;
+  color: #000;
+  padding: 0 7px;
+ }
+
+ .h2Cursive {
+  font-family: 'BlackJack', cursive;
+  font-style: bold;
+  font-size: 45px;
+  color: #000;
+  padding: 0 7px;
+ }
+
+ .h2Test {
+  font-family: 'ComforterBrush', cursive;
+  font-style: bold;
+  font-size: 45px;
+  color: #000;
+  padding: 0 7px;
+ }
+
+h3 {
+    font-family: 'Georgia', 'Times New Roman', 'Didot', Times, serif, ui-serif;
+    font-style: bold, italic;
+    font-size: 30px;
+    color: #000;
+    padding: 0 5px;
 }
 
-a:hover {
-  color: #b755bd;
-  text-decoration: underline;
-}*/
 
-/*background-image*/
+
+.p1 {
+    font-family: 'Georgia', 'Times New Roman', 'Didot', Times, serif, ui-serif;
+}
+.p2 {
+    font-family: 'Trebuchet MS', 'Optima', 'Open Sans', 'Helvetica', system-ui, Helvetica, sans-serif, ui-sans-serif;
+}
+.h2p2 {
+  font-family: 'Trebuchet MS', 'Optima', 'Open Sans', 'Helvetica', system-ui, Helvetica, sans-serif, ui-sans-serif;
+  font-size: 17px;
+}
+.p3 {
+    font-family: "Luminari", "Trattatello", "Aniron", fantasy;
+}
+.p4 {
+    font-family: 'URW Chancery L', 'Bradley Hand', cursive;
+}
+.p5 {
+    font-family: "Lucida Console", monospace, ui-monospace;
+}
+
+
+
+  .jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url('https://i.pinimg.com/originals/a9/e2/50/a9e2503b55b704870619bfd93a3153e0.jpg');
+    background-size: cover;
+    color: #a18383;
+    height: 300px;
+    /*text-shadow: 0.25px 0.25px 0.25px #000000;*/
+  }
+  .jumbotron h2 {
+    font-family: 'GondolaSD', fantasy;
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0;
+    color: #000;
+  }
+  .jumbotron h3 {
+    font-family: 'BlackJack', cursive;
+    font-size: 40px;
+    margin: 0 0 20px;
+    color: #000;
+  }
+
+
+  .jumboNations {
+    display: flex;
+    align-items: center;
+    background-image: url('http://www.online-tabletop.com/wp-content/uploads/2017/01/tutoriala.jpg');
+    background-size: cover;
+    color: #a18383;
+    height: 300px;
+  }
+  .jumboNations h2 {
+    font-family: 'GondolaSD', fantasy;
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0;
+    color: rgb(32, 46, 80);
+  }
+  .jumboNations h3 {
+    font-family: 'BlackJack', cursive;
+    font-size: 40px;
+    margin: 0 0 20px;
+    color: #000;
+  }
+
+
+  .jumboRaces {
+    display: flex;
+    align-items: center;
+    background-image: url('https://seanmills6.files.wordpress.com/2020/07/fantasy-race-list-03.jpg');
+    background-size: cover;
+    color: #a18383;
+    height: 300px;
+  }
+  .jumboRaces h2 {
+    font-family: 'GondolaSD', fantasy;
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0;
+    color: #000;
+  }
+  .jumboRaces h3 {
+    font-family: 'BlackJack', cursive;
+    font-size: 40px;
+    margin: 0 0 20px;
+    color: #000;
+  }
+
+
+  .jumboMyths {
+    display: flex;
+    align-items: center;
+    background-image: url('https://i.imgur.com/CK7iVNd.png');
+    background-size: cover;
+    color: #a18383;
+    height: 300px;
+  }
+  .jumboMyths h2 {
+    font-family: 'GondolaSD', fantasy;
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0;
+    color: #000;
+  }
+  .jumboMyths h3 {
+    font-family: 'BlackJack', cursive;
+    font-size: 40px;
+    margin: 0 0 20px;
+    color: #000;
+  }
+
+
+  .jumboDeities {
+    display: flex;
+    align-items: center;
+    background-image: url('https://images.alphacoders.com/286/286341.jpg');
+    background-size: cover;
+    color: #a18383;
+    height: 300px;
+  }
+  .jumboDeities h2 {
+    font-family: 'GondolaSD', fantasy;
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0;
+    color: #000;
+  }
+  .jumboDeities h3 {
+    font-family: 'BlackJack', cursive;
+    font-size: 40px;
+    margin: 0 0 20px;
+    color: #000;
+  }
+
+
+
+
+
+  section .row img {
+    margin: 0 0 30px;
+    width: 100%;
+  }
+  
+  .col-md-6 {
+    margin: 0 0 30px;
+  }
+  
+  .btn.btn-primary {
+    border-radius: 2px;
+    border: 0px;
+    color: #42282b;
+    text-shadow: none;
+    background-color: #917272;
+  }
+  
+  .btn.btn-primary:hover {
+    color: #9c5057;
+    background-color: #523737;
+  }
+  
+  .btn-secondary {
+    background-color: #E8DFE0;
+    color: #ffffff;
+    margin: 0 0 30px;
+  }
+  
+  footer {
+    font-size: 12px;
+    padding: 20px 0;
+  }
+  
+  footer .col-sm-8 {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  footer ul {
+    list-style: none;
+  }
+  
+  footer li img {
+    width: 32px;
+    height: 32px;
+  }
+
+
+.col6-contain {
+  width: 540px;
+  height: 300px;
+}
+
+
+#nav-links {
+  color: #000;
+}
+
+#header-links {
+  color: #d3c3a0;
+}
